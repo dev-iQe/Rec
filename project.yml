@@ -1,0 +1,19 @@
+name: iCerf
+targets:
+  iCerf:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.0"
+    info:
+      path: iCerf/Info.plist
+      properties:
+        CFBundleIdentifier: com.icerf.iq
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: true
+        UILaunchStoryboardName: LaunchScreen
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+    sources:
+      - path: iCerf
